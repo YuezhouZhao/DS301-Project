@@ -45,5 +45,5 @@ We will use the following dataset for this project:
 ## Demo
 
 Input an image, and output would be classification "Impressionism" and text description:
-![Input Image](https://github.com/YuezhouZhao/DS301/blob/master/InputImage.jpg)
+![Input Image](https://github.com/YuezhouZhao/DS301-Project/InputImage.jpg)
 - "This is an artwork from painter MONET, Claude during the period of Impressionism. The title of this painting is Sunrise, Impressionism."
