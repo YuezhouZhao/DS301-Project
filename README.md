@@ -24,8 +24,10 @@ We will use the following dataset for this project:
 ## Approach
 
 1. **CNN:** Use the baseline model to do supervised learning on art style classification.
-   - Train and evaluate model performance on the test set.
-   - After 20 epochs of training, the CNN model achieves a test accuracy of 0.67. However, the model's performance is not satisfactory as it shows signs of overfitting to the training set, with a high training accuracy of 0.94. Additionally, the loss increases in the last two epochs, indicating a lack of generalization and potential instability in the model's predictions.
+  Train and evaluate model performance on the test set.
+   - Outcome: After 20 epochs of training, the CNN model achieves a test accuracy of 0.67. 
+   - The model was overfitting to the training set, with a high training accuracy of 0.94. 
+   - The loss increases in the last two epochs, indicating a lack of generalization and potential instability in the model's predictions.
 
 2. **Pretrained CLIP (Contrastive Language-Image Pretraining):**
    - CLIP model: Text and image encoders encode text and image data into a shared embedding space.
