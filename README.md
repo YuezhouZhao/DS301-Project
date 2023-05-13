@@ -45,5 +45,6 @@ We will use the following dataset for this project:
 ## Demo
 
 Input an image, and output would be classification "Impressionism" and text description:
-![Input Image](InputImage.jpg)
+
+<img src="InputImage.jpg" alt="Image" width="300" height="200">
 - "This is an artwork from painter MONET, Claude during the period of Impressionism. The title of this painting is Sunrise, Impressionism."
