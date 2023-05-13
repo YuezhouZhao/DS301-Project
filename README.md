@@ -15,11 +15,25 @@ The goal of this project is to develop a deep learning model that can accurately
 4. Hyperparameter Tuning the CLIP Model
 
 ## Background Work
-We will use the following dataset for this project:
+We will use the following **dataset** for this project:
 - [European artworks dataset](https://www.kaggle.com/datasets/ansonnnnn/historic-art) from the Web Gallery of Art.
 - Images of European artwork.
 - CSV artwork dataset detailing art background, such as title, time period, and texture.
 - CSV info dataset detailing image information, such as artist and nationality.
+
+## Data Preprocessing
+1. Selected Six Representative Styles 
+- "Romanticism", "Baroque", "High Renaissance", "Realism", "Impressionism", "Medieval"
+
+2. Image Preprocessing
+- Resize the image to a specific width and height (e.g., 128 x 128).
+- Convert the image from BGR to RGB color format.
+- Normalize the pixel values of the image to a range between 0 and 1 by dividing by 255.0.
+
+3. Text Preprocessing
+- Text Description Template: 
+- “This is an artwork from painter ” + artist + “ during the period of ”  + period + “. The title of this painting is ” + title. 
+
 
 ## Approach
 
